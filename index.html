@@ -6,6 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Maximize skill</title>
         <link rel="stylesheet" href="./style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -17,29 +21,68 @@
         <main>
             <h1 class="main__slogan">Maximize skill, minimize budget</h1>
             <p class="main__text">Our modern courses across a range of in-demand skills will give you the knowledge you need to live the life you want.</p>
-            <button id="main__get started" type="button">Get Started</button>
+            <button id="main__getstarted" type="button">Get Started</button>
         </main>
-        <section class="first__cards">
-            <div id="card__1">
-                <h1 id="card__slogan">Check out our most popular courses!</h1>
-            </div>
+        <section class="cards__section">
+           <div class="first__floor">
+                <div class="card">
+                    <div id="card__slogan"><h1 id="card__slogantext">Check out our most popular courses!</h1></div>         
+                </div>
 
-            <div id="card__2">
-                <div class="icon__animation">
-                    <img src="./assets/icon-animation.svg" alt="icon-animation">
+                <div class="card">
+                    <div class="icon__animation">
+                        <img src="./assets/icon-animation.svg" alt="icon-animation">
+                    </div>
+                    <h1 id="animation">Animation</h1>
+                    <p id="animation__text">Learn the latest animation techniques to create stunning motion design and captivate your audience.</p>
+                    <a href="#"><h3>Get Started</h3></a>
                 </div>
-                <h1 id="animation">Animation</h1>
-                <p id="animation__text">Learn the latest animation techniques to create stunning motion design and captivate your audience.</p>
-                <a href="#"><h3>Get Started</h3></a>
-            </div>
-            
-            <div id="card__3">
-                <div class="icon__design">
-                    <img src="./assets/icon-design.svg" alt="icon-design">
+                
+                <div class="card">
+                    <div class="icon__design">
+                        <img src="./assets/icon-design.svg" alt="icon-design">
+                    </div>
+                    <h1 id="design">Design</h1>
+                    <p id="design__text">Create beautiful, usable interfaces to help shape the future of how the web looks.</p>
+                    <a href="#"><h3>Get Started</h3></a>
                 </div>
-                <h1></h1>
+
+           </div>
+            <div class="second__floor">
+                <div class="card">
+                    <div class="icon__photography">
+                        <img src="./assets/icon-photography.svg" alt="icon__photography">
+                    </div>
+                    <h1 id="photography">Photography</h1>
+                    <p id="photography__text">Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos.</p>
+                    <a href="#">Get Started</a>
+                </div>
+    
+                <div class="card">
+                    <div class="icon__crypto">
+                        <img src="./assets/icon-crypto.svg" alt="icon__crypto">
+                    </div>
+                    <h1 id="crypto">Crypto</h1>
+                    <p id="crypto__text">All you need to know to get started investing in crypto. Go from beginner to advanced with this 54 hour course.</p>
+                    <a href="#">Get Started</a>
+                </div>
+                <div class="card">
+                    <div class="icon__business">
+                        <img src="./assets/icon-business.svg" alt="icon__business">
+                    </div>
+                    <h1 id="business">Business</h1>
+                    <p id="business__text">A step-by-step playbook to help you start, scale, and sustain your business without outside investment.</p>
+                    <a href="#">Get Started</a>
+                </div>
+    
             </div>
         </section>
+        <footer>
 
+        </footer>
+            <div class="footer">
+                <img id="logo__light" src="./assets/logo-light.svg" alt="logo-light">
+                <button id="footer__getstarted" type="button">Get Started</button>
+            </div>
     </body>
 </html>

@@ -1,7 +1,116 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 a {
     text-decoration: none;
+}
+
+.footer{
+    background-color: #13183F;
+}
+
+body {
+    background-color: #FFFFFF;
+    background-image: url(./assets/image-hero-desktop.png);
+    background: no-repeat;
+
+
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#logo_dark {
+    width: 111.17px;
+    height: 27.68px;
+    margin-top: 38.75px;
+    margin-left: 165.79px;
+}
+#get__started{
+    width: 167px;
+    height: 56px;
+    color: #FFFFFF;
+    background: #13183F;
+    border-radius: 28px;
+    margin-top: 24px;
+    margin-right: 165px;
+
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+}
+.main__slogan {
+    width: 457px;
+    height: 143px;
+    margin-left: 165px;
+    margin-top: 185.57px;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 71px;
+    color: #13183F;
+}
+.main__text {
+    color: #83869A;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+
+    width: 445px;
+    height: 84px;
+    margin-left: 165px;
+    margin-top: 29px;
+}
+
+#main__getstarted {
+    width: 167px;
+    height: 63px;
+    margin-left: 165px;
+    margin-top: 40px;
+
+    border-radius: 31.5px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    border: 0;
+}
+.first__floor{
+    display: flex;
+    justify-content: space-around;
+}
+.second__floor {
+    display: flex;
+    justify-content: space-around;
+
+}
+.cards__section {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%)
+}
+.card {
+    width: 350px;
+    height: 322px;
+    border-radius: 15px;
+}
+#card__slogan {
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    width: 350px;
+    height: 322px;
+    border-radius: 15px;
+}
+#card__slogantext {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
 }
