@@ -12,9 +12,8 @@
 body {
     background-color: #FFFFFF;
     background-image: url(./assets/image-hero-desktop.png);
-    background: no-repeat;
-
-
+    background-repeat: no-repeat;
+    background-position: top -146px right -335px;
 }
 
 .header{
@@ -100,6 +99,7 @@ body {
 .cards__section {
     background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
     margin-top: 250px;
+    padding-bottom: 140px;
     padding-left: 165px;
     padding-right: 165px;
 }
@@ -204,7 +204,7 @@ a:hover {
 
 }
 
-.icon__design {
+.icon {
     width: 56px;
     height: 56px;
     margin-top: -24px;
@@ -239,4 +239,38 @@ a:hover {
     height: 28px;
     margin-top: 24px;
     margin-left: 32px;
+}
+
+.second__floor {
+    margin-top: 80px;
+}
+
+.footer {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo__light {
+    width: 111.17px;
+    height: 27.68px;
+    margin-top: 38.75px;
+    margin-left: 165.79px;
+}
+#footer__getstarted {
+    width: 167px;
+    height: 56px;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%); 
+    margin-top: 24px;
+    margin-right: 165px;
+    border-radius: 28px;
+
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+#footer__getstarted:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
 }
